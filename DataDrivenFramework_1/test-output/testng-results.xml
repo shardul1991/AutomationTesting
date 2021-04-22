@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38066" started-at="2021-04-22T08:34:52Z" finished-at="2021-04-22T08:35:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38066" started-at="2021-04-22T08:34:52Z" finished-at="2021-04-22T08:35:30Z">
+      <class name="com.cjc.mt.tests.Test">
+        <test-method status="PASS" signature="openDriver()[pri:0, instance:com.cjc.mt.tests.Test@6156496]" name="openDriver" is-config="true" duration-ms="9173" started-at="2021-04-22T08:34:43Z" finished-at="2021-04-22T08:34:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.cjc.mt.tests.Test@6156496]" name="openUrl" is-config="true" duration-ms="7613" started-at="2021-04-22T08:34:52Z" finished-at="2021-04-22T08:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="maximize()[pri:0, instance:com.cjc.mt.tests.Test@6156496]" name="maximize" is-config="true" duration-ms="193" started-at="2021-04-22T08:35:00Z" finished-at="2021-04-22T08:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximize -->
+        <test-method status="PASS" signature="registerTest()[pri:-1, instance:com.cjc.mt.tests.Test@6156496]" name="registerTest" duration-ms="20800" started-at="2021-04-22T08:35:00Z" finished-at="2021-04-22T08:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method status="PASS" signature="createCookies()[pri:0, instance:com.cjc.mt.tests.Test@6156496]" name="createCookies" is-config="true" duration-ms="0" started-at="2021-04-22T08:35:00Z" finished-at="2021-04-22T08:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCookies -->
+        <test-method status="PASS" signature="createCookies()[pri:0, instance:com.cjc.mt.tests.Test@6156496]" name="createCookies" is-config="true" duration-ms="1" started-at="2021-04-22T08:35:21Z" finished-at="2021-04-22T08:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCookies -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.cjc.mt.tests.Test@6156496]" name="loginTest" duration-ms="9107" started-at="2021-04-22T08:35:21Z" finished-at="2021-04-22T08:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.cjc.mt.tests.Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
