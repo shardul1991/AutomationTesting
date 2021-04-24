@@ -50,8 +50,8 @@ public class Test {
 		sAssert= new SoftAssert();
 		String actualurl=driver.getCurrentUrl();
 		log.info("Actual URL: "+actualurl);
-		String expectedurl= "http://demo.guru99.com/test/newtours/register.php";
-		sAssert.assertEquals(expectedurl,actualurl);
+		String expectedurl= "http://demo.guru99.com/test/newtours/register";
+		sAssert.assertEquals(actualurl,expectedurl);
 		log.info("URL entered sucessfully");
 		
 		String actualtitle=driver.getTitle();

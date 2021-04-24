@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.cjc.mt.tests.Test">
+        <methods>
+          <include name="createCookies"/>
+          <include name="loginTest"/>
+          <include name="openDriver"/>
+          <include name="registerTest"/>
+          <include name="openUrl"/>
+          <include name="maximize"/>
+        </methods>
+      </class> <!-- com.cjc.mt.tests.Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
