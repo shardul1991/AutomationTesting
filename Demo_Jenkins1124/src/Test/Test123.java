@@ -1,4 +1,4 @@
-package Test.java12;
+package Test;
 
 public class Test123 {
 
